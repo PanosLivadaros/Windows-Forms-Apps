@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VzDW3VQkitBfK2fR93f3ra61MjLy5uZRqTy1bz1p8/WA6z8fWf6wGcakqQ9w6F2zwAEXoiq6dct3JFxcKwHoGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\panos\\Desktop\\panos\\Πληροφορική\\C#\\FocusChangeAnnouncement\\FocusChangeAnnouncement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\panos\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

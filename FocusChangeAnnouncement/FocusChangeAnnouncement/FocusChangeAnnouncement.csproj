@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>5</VersionMajor>
+      <Guid>c866ca3a-32f7-11d2-9602-00c04f8ee628</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="{e6da930b-bba5-44df-ac6f-fe60c1eddec8}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>5</VersionMajor>
+      <Guid>e6da930b-bba5-44df-ac6f-fe60c1eddec8</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Speech" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Speech">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Speech.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
